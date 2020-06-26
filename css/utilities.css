@@ -1,0 +1,10 @@
+.primary__btn {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.primary__btn:hover {
+  opacity: 0.9;
+}
