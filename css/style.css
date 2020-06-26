@@ -100,3 +100,23 @@ img {
 #navbar__menu a:hover {
   border-bottom: var(--primary-color) 2px solid;
 }
+
+/* showcase */
+
+#showcase {
+  height: 100%;
+  color: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+#showcase p {
+  font-size: 25px;
+}

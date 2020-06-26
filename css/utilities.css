@@ -1,3 +1,7 @@
+.btn {
+  margin-top: 20px;
+}
+
 .primary__btn {
   background-color: var(--primary-color);
   color: var(--light-color);
