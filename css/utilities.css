@@ -12,3 +12,8 @@
 .primary__btn:hover {
   opacity: 0.9;
 }
+
+.bg__lightgray {
+  background-color: var(--light-gray);
+  color: var(--dark-color);
+}

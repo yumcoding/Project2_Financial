@@ -120,3 +120,37 @@ img {
 #showcase p {
   font-size: 25px;
 }
+
+/* about */
+
+#about {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+
+#about .about__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+}
+
+.about__box i {
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border-radius: 50%;
+}
+
+.about__box h2 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.about__box p {
+  text-align: center;
+  font-size: 16px;
+}
