@@ -24,7 +24,6 @@ ul {
 }
 
 a {
-  color: var(--dark-color);
   text-decoration: none;
 }
 
@@ -40,4 +39,22 @@ p {
 
 img {
   width: 100%;
+}
+
+.primary__color {
+  color: var(--primary-color);
+}
+
+/* header - navbar */
+
+#navbar {
+  background-color: var(--dark-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+#navbar #navbar__logo {
+  font-size: 30px;
+  color: var(--light-color);
 }
