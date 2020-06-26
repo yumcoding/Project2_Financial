@@ -1,19 +1,32 @@
 .btn {
   margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
 }
 
 .primary__btn {
   background-color: var(--primary-color);
   color: var(--light-color);
-  padding: 10px 20px;
-  border-radius: 4px;
 }
 
 .primary__btn:hover {
   opacity: 0.9;
 }
 
+.primary-border__btn {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border: var(--light-color) 1px solid;
+}
+
+/* background */
+
 .bg__lightgray {
   background-color: var(--light-gray);
   color: var(--dark-color);
+}
+
+.bg__primary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
 }
