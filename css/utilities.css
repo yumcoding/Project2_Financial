@@ -13,8 +13,8 @@
   opacity: 0.9;
 }
 
-.primary-border__btn {
-  background-color: var(--primary-color);
+.border__btn {
+  background: transparent;
   color: var(--light-color);
   border: var(--light-color) 1px solid;
 }
