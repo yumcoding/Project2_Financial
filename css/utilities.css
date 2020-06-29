@@ -9,6 +9,7 @@
 /* Buttons */
 
 .btn {
+  display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
   border-radius: 4px;
@@ -48,15 +49,20 @@
 
 /* Section Header */
 .section__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 }
+
 .section__header h4 {
   font-size: 16px;
   font-weight: 600;
 }
 
 .section__header h2 {
-  font-size: 38px;
+  font-size: 40px;
   padding: 10px 0;
 }
 
