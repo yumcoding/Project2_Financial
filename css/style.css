@@ -196,7 +196,6 @@ img {
 
 /* cases */
 #cases {
-  height: 800px;
   padding: 50px 30px;
   display: flex;
   flex-direction: column;
@@ -215,4 +214,20 @@ img {
 .cases__header h2 {
   font-size: 38px;
   padding: 10px 0;
+}
+
+#cases .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+#cases .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+#cases .column img:hover {
+  opacity: 0.6;
 }
