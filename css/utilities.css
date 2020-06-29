@@ -32,6 +32,11 @@
 
 /* Background */
 
+.bg__light {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
 .bg__lightgray {
   background-color: var(--light-gray);
   color: var(--dark-color);
