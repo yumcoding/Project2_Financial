@@ -14,7 +14,15 @@
   padding: 10px 20px;
   border-radius: 4px;
 }
+.dark__btn {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
 
+.light__btn {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
 .primary__btn {
   background-color: var(--primary-color);
   color: var(--light-color);
