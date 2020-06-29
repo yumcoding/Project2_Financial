@@ -200,3 +200,22 @@ img {
 #contact #form input:focus {
   outline-color: #28a745;
 }
+
+/* footer */
+#footer {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .social i {
+  color: var(--light-color);
+  border-radius: 50%;
+  margin: 15px;
+}
+
+#footer .social i:hover {
+  color: var(--primary-color);
+}

@@ -52,6 +52,11 @@
   color: var(--light-color);
 }
 
+.bg__dark {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
 /* Section Header */
 .section__header {
   display: flex;
