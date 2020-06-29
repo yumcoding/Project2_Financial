@@ -101,6 +101,7 @@
 .row .column .column__1,
 .row .column .column__2 {
   height: 100%;
+  width: 100%;
 }
 
 .row .column .column__1 img {
